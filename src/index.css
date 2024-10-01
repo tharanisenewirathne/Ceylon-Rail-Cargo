@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+
+
+  .hover{
+    transition: 'transform 0.3s';
+  }
+
+  .hover:hover{
+    transform: scale(1.05);
+  }
+
+  tr{
+    border:1px solid;
+  }
+
+  th{
+    border-left: 1px solid;
+  }
